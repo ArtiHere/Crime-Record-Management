@@ -1,0 +1,173 @@
+
+
+.title{
+  margin-left:60px;
+  font-style: serif;
+  margin-top:5px;
+  font-size: 28px;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #069A8E;
+  color: white;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+header {
+  margin-top: 10px;
+  display: flex;
+  height: 100px;
+  background-color: #005555;
+}
+
+.imglogo {
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 90px;
+  height: 90px;
+}
+
+/* index Page*/
+body {
+  background-color: #EEEEEE;
+  margin: 10px;
+}
+
+.navbar {
+  margin-left: 130px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  width: 600px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #A1E3D8;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  font-style: serif;
+}
+
+.rlink:hover {
+  color: #005555;
+  font-weight: bolder;
+}
+
+.navlinks {
+  display: flex;
+}
+
+.dropdown_opts {
+  display: none;
+}
+
+ul li:hover>ul {
+  display: block;
+}
+
+ul ul li:hover {
+  background-color: #A1E3D8;
+}
+
+.dp_menu {
+  width: 215px;
+  font-size: 19px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 15px;
+
+}
+
+.loginops {
+  margin-left:450px;
+  margin-top:5px;
+  width: 315px;
+  font-style: serif;
+  color: white;
+}
+
+.loginops:hover {
+  background-color: #069A8E;
+}
+
+.head{
+  margin-left:100px;
+}
+
+.info {
+  background-color: #ECFCFF;
+  padding:5px;
+  margin: 25px 25px 25px 25px;
+}
+.rlink {
+  padding: 0;
+}
+.details{
+  width:100px;
+}
+.pr1 {
+  font-weight: 300;
+  font-family: serif;
+  line-height: 25px;
+  font-size: 20px;
+  margin : 70px 25px 25px 25px;
+
+}
+.table1{
+  font-size: 20px;
+  margin-left: 30px;
+  width: 500px;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imgnews{
+  width : 450px;
+  height : 630px;;
+}
+
+
+.pr {
+  font-weight: 300;
+  font-family: serif;
+  line-height: 25px;
+  font-size: 20px;
+  margin : 25px 25px 25px 25px;
+
+}

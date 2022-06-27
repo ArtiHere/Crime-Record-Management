@@ -1,0 +1,41 @@
+echo "***********CALCULATOR************"
+n=1
+while [ $n -ne 5 ]
+do
+echo "Enter 1st Number"
+read a
+echo "Enter second number"
+read b
+echo "Enter your choice"
+echo "1.Addition"
+echo "2.Subtraction"
+echo "3.Multiplication"
+echo "4.Division"
+echo "5.Exit"
+read n
+case $n in
+
+1) sum1=`expr $a + $b`
+   echo "Addition is : $sum1"
+;;
+
+2) sub=`expr $a - $b`
+   echo "Substraction is : $sub"
+;;
+
+3) mul=`expr $a \* $b`
+   echo "Multiplication is : $mul"
+;;
+
+4) div=`expr $a / $b`
+   echo "Division is : $div"
+;;
+
+5) echo "Exiting Calculator"
+;;
+
+*) echo "Enter valid option"
+;;
+
+esac
+done
